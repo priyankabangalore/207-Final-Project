@@ -1,0 +1,42 @@
+List of Design Patterns We Used: Where and Why
+
+Dependency Injection
+    - UseCases.*
+    They stores list of entity objects. When program starts.
+    Instead of making the entities one by one and add to the list,
+    we make a method allows the entire list of entities to be past in.
+   - Menu
+     Menus have their options (Command) inserted after instantiation, allowing for more flexibility.
+
+Adapter
+    - Controllers.MenuAdapters.*
+    We have design changes in the presenter from phase1, so instead of changing all the controllers,
+    we make many adapters for them.
+
+Builder
+    - Presenters.Menus.MenuTreeBuilders.*
+      These menus are very complex, so we use builder to make them step by step. UserMenuBuilder stores menus common to
+      more than one user type.
+
+Factory
+    - MenuFactory
+    In order to encapsulate and simplify the creation of a user's menu tree, the creation of trees is handled by the
+    MenuFactory, which can return a menu tree tailored for each user.
+
+Command
+    - Command
+    The command design pattern was used to allow for a degree of modularity within Menu system in the program, and
+    can be seen throughout the presenters.
+
+Strategy
+    - The strategy design pattern was used in conjunction with the DynamicMenu to produce StrategyDynamicMenu, which
+    requires a CommandStrat. A CommandStrat (the actual strategy class) decides the how the StrategyDynamicMenu updates
+    its options, and is given during the SDMs construction.
+
+Facade
+    - Gateways.*
+    All the gateways has very similar functionality, i.e storing and loading different types of entities.
+    We need to make them has simplified single interface,
+    so we can delegate each responsibility to each single classes and also be easier for a complex program to operate.
+    - DynamicMenuOperatorHub
+    This class facades all other DynamicMenuOperators, allowing for easy access and the simplification of the Adapters.

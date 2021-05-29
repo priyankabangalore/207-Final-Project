@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: Controllers.Main
+Sealed: true
+Name: phase2/
+Specification-Title: CSC207 Group Project
+Specification-Version: 2.1.2r
+Specification-Vendor: Group 0410
+Implementation-Title: phase 2
+Implementation-Version: build20201214-1441
+Implementation-Vendor: Group 0410

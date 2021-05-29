@@ -1,0 +1,31 @@
+New Features We Implemented For Phase 2
+
+Mandatory Extensions:
+    - Multiple event types with different time durations and speaker requirements (talks, panels and parties).
+    - Option to cancel an event (implemented similar functionality in Phase 1).
+    - Admin user with master controls (implemented similar functionality in Phase 1).
+    - Organizers can create speaker and attendee user accounts (implemented similar functionality in Phase 1).
+    - Event capacity which is set by an Organizer.
+
+Optional Extensions:
+    - Enhanced user messaging with delete, archive, unarchive, and mark as read options.
+    - Event filters, where users can filter for events by a Speaker ID, date, or time to fit their needs.
+    - Requirements for rooms, in which organizers can look for rooms fitting their needs for the event (table chairs, snacks, etc.).
+    - User request support, where Speakers and Attendees can establish any dietary or accessibility requests, which can
+    be marked as addressed or pending by an organizer.
+
+Create-Your-Own Extensions and User-Friendly Upgrades:
+    - Event rescheduling option.
+    - Date implementation for a multi-day conference system, in which users can filter events by date, and admins can create
+    events on specific days.
+    - Rating system for Attendee's to leave a rating for speakers, which speakers can then view.
+    - Option for attendees to remove friends just as they can add them.
+    - Change Account Credentials option, where users can change their username, password, and/or email.
+    - Event descriptions added to an event by an admin/organizer when creating an event.
+    - Option for Attendees to view the events their friends are enrolled in.
+    - Option for Admins to ban, block or unblock users.
+    - Rules for both Speakers and Attendees.
+    - Display the time of each message in a conversation.
+    - Multi-User conversations (group chats).
+    - Prevent users from sending empty messages.
+
