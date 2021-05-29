@@ -1,6 +1,6 @@
-#Tech Conference Platform
+###Tech Conference Platform
 
-##Table of Contents
+####Table of Contents
     - Entities
     - Use Cases
     - Controllers
@@ -10,13 +10,13 @@
     - Design Patterns Listing
     - Phase 2 Features Description
 
-##General Information
+####General Information
     This project is Phase 2 of a tech-conference system which allows users to view events, sign-up for events and message
     other users.
     In this Phase 2 version, there are multiple event types, messaging enhancements, accessibility/dietary
     accommodations, room equipment constraints, multi-day conferences, and various user-friendly upgrades.
 
-##Setup
+####Setup
     Please make sure your jdk version is 1.8. You can find this by executing "java -version" in your system terminal.
 
     Too bad Markus does not have a release tab like Github, so you have to build the program yourself.
@@ -46,7 +46,7 @@
             - The working directory of your console/terminal should be the root of the phase2 folder.
             - The classpath is where the compiled files are located.
 
-##Using the Program
+####Using the Program
     After the previous setup steps, the program should be running.
     Options will be given in the console for you to choose.
     Please enter the number option to select an option.
@@ -55,7 +55,7 @@
     ID: "0"
     Password: “adminDefaultPW"
 
-##Authors
+####Authors
     - Benjamin Matthew Tudor Price
     - Daniel Michael Oleksiyenko-Stech
     - Priyanka Michelle Bangalore
